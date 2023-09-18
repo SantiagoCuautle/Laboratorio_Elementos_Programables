@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 2 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Laboratorio de elementos programables I</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Práctica 2</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/SantiagoCuautle1.jpg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Cuautle Ortiz Luis Santiago</div>
+                                <div class="text-muted">Ingeniería Biomédica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Agosto 31, 2023</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Servomotores</a>
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/Servopot.png" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">En la presente práctica se busca aumentar el conocimiento utilizado en la práctica anterior, a través del uso de potenciómetros y servomotores controlados por Arduino.</p>
+                        <p class="fs-6 mb-4">A continuación se mostrará el desarrollo de 8 circuitos básicos para adentrarse en la materia de elementos programables, ensambles denominados como "Arduino básico II".</p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Dentro de la electrónica básica podemos encontrar el uso de potenciómetros y servomotores para crear proyectos interactivos, tales como robots, donde se controle la posición y el movimiento mediante programación.</p>
+                        <p class="fs-6 mb-4">Los potenciómetros permiten ajustar la resistencia eléctrica en un circuito. Es como una perilla que al girarla mueve la resistencia a través de la pista resistiva para controlar el brillo, el volumen, entre otros.</p>
+                        <p class="fs-6 mb-4">Los servomotores controlan la posición de un eje de forma precisa. Estos pueden girar en un ángulo específico y mantener esa posición. Por tanto, son utilizados en robótica donde se requiere un movimiento preciso.</p>
+                        <p class="fs-6 mb-4">Arduino es la plataforma que permitirá controlar un servomotor mediante un potenciómetro. Es decir, al girar el potenciómetro, el valor de lectura cambia y gracias al código previamente programado en arduino, el servomotor se mueve a una posición específica.</p>
+    
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">- Protoboard</p>
+                        <p class="fs-6 mb-4">- Arduino UNO</p>
+                        <p class="fs-6 mb-4">- 2 LEDs</p>
+                        <p class="fs-6 mb-4">- 2 servo motores</p>
+                        <p class="fs-6 mb-4">- 2 Resistencias de 220 Ohms</p>
+                        <p class="fs-6 mb-4">- 2 Potenciómetros</p>
+                        <p class="fs-6 mb-4">- Jumpers</p>
+                        <p class="fs-6 mb-4"></p>
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">Los siguientes códigos se realizaron en las siguientes 3 etapas: </p>
+                        
+                            <p id="diseño">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
+                            <p class="fs-6 mb-4">Primero se realizaron los diseños de los circuitos en tinkercad para corroborar su funcionamiento.</p>
+                            <p class="fs-6 mb-4">Link: https://www.tinkercad.com/classrooms/b5s2eOYhgMn/activities/7h8cznM37L1</p>
+    
+                            <p id="construccion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+                            <p class="fs-6 mb-4">Las siguientes imágenes muestran el ensamblado de los circuitos que utilizaremos en esta práctica de Arduino Básico II.</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/1_servo I.jpg" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 1. Servo I</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/2_servo II.jpg" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 2. Servo II</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/3_potenciometro_serial print.jpg" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 3. Potenciometro serial print</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/5_servos.jpg" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 4. Servos</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/6_servos invertidos.jpg" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 5. Servos invertidos</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/7_servos independientes.jpg" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 6. Servos independientes</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/8_servos independientes y leds.jpg" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 7. Servos independientes y leds</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/9_servo_fuente.jpg" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 8. Servo fuente</p>
+    
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Códigos</h1>
+                            <p class="fs-6 mb-4">Las siguientes imágenes muestran el código de cada uno de los circuitos que utilizaremos en esta práctica de Arduino Básico II.</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/C1_servo I.jpg" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 1. Servo I</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/C2_servo II.jpg" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 2. Servo II</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/C3_potenciometro_serial print.jpg" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 3. Potenciometro serial print</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/C5_servos.jpg" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 4. Servos</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/C6_servos invertidos.jpg" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 5. Servos invertidos</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/C7_servos independientes.jpg" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 6. Servos independientes</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/C8_servos independientes y leds.jpg" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 7. Servos independientes y leds</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/C9_servo_fuente.jpg" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 8. Servo fuente</p>
+    
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">Al desarrollar esta práctica, nos dimos a la tarea de comprender el código y ensamblar los componentes a fin de cimentar los fundamentos de electrónica básica con Arduino para que en las siguientes prácticas se proceda a realizar circuitos más complejos.</p>
+                        <p class="fs-6 mb-4">En los siguientes videos veremos no solo el circuito, si no, la importancia de la teoría y la práctica en el mundo electrónico.</p>
+                        <p class="fs-6 mb-4">Nota: El número del ejemplo no coincidirá con el que aparece en el vídeo, esto se debe a que la práctica 4 no se desarrolló. Muchas gracias.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/S1.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 1. Servo I</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/S2.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 2. Servo II</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/S3.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 3. Potenciometro serial print</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/S5.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 4. Servos</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/S6.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 5. Servos invertidos</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/S7.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 6. Servos independientes</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/S8.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 7. Servos independientes y leds</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/S9.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 8. Servo fuente</p>
+    
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">La combinación de servomotores, Arduino y potenciómetros proporciona una solución versátil y poderosa para una amplia variedad de aplicaciones de control de movimiento y automatización. Estos componentes permiten diseñar sistemas personalizados que pueden controlar con precisión la posición, velocidad y dirección de movimientos mecánicos. Al utilizar Arduino como plataforma de desarrollo, se puede programar y adaptar fácilmente el comportamiento del servomotor para satisfacer las necesidades específicas de cada proyecto.</p>
+                        <p class="fs-6 mb-4">Por su parte, los potenciómetros agregan una dimensión adicional al permitir la interacción manual y el ajuste en tiempo real de los parámetros de movimiento. Esta combinación se utiliza en una amplia gama de aplicaciones, desde proyectos educativos y hobby hasta aplicaciones industriales y de robótica avanzada.</p>
+                        
+
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Aguayo, P. (2023). ¿Qué es Arduino? | Arduino.cl - Compra tu arduino en línea. Arduino.cl - Compra tu Arduino en Línea. https://arduino.cl/que-es-arduino/</p>
+                        <p class="fs-6 mb-4">R., J. L. (2017, noviembre 21). POTENCIOMETRO - Qué es, como funciona y aplicaciones. ComoFunciona. https://como-funciona.co/un-potenciometro/</p>
+                        <p class="fs-6 mb-4">Torres, G. (2023, febrero 1). Conoce el funcionamiento de los servomotores. Urany®. https://urany.net/blog/conoce-el-funcionamiento-de-los-servomotores</p>
+                        
+                        <p id="descargables">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+                        <p class="fs-6 mb-4">Descargar Códigos Arduino: <a href="files/Practica2_Codigos.zip">carpeta comprimida</a> </p>
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
