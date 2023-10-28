@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 6 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Laboratorio de elementos programables I</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Práctica 6</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/SantiagoCuautle1.jpg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Cuautle Ortiz Luis Santiago</div>
+                                <div class="text-muted">Ingeniería Biomédica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Septiembre 5, 2023</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Attiny85</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >ISP</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Sensores</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/Attiny85.jpeg" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">En esta práctica se utilizaron los bases de las prácticas previas con Attiny85 para controlar sensores digitales, analógicos e inteligentes.</p>
+                        <p class="fs-6 mb-4">De igual forma se muestra una tabla con la información de 30 sensores diferentes, 10 de cada tipo antes mencionado.</p>
+                        <p class="fs-6 mb-4">Se pondrá en práctica los conocimientos de attiny85. arduino y sensores en el ensamblado de circuitos.</p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Los sensores desempeñan un papel fundamental al servir como elementos electrónicos capaces de percibir el entorno que nos rodea. Desde la detección de temperatura hasta la medición de señales biológicas, de acuerdo con el Instituto Nacional de Bioingeniería e Imágenes Biomédicas, los sensores son herramientas que detectan y responden a algún tipo de entrada del entorno físico. Estos dispositivos son esenciales en diversas aplicaciones en campos como la medicina, la industria y la investigación. La capacidad de los sensores para captar y responder a estímulos físicos, químicos o biológicos los convierte en herramientas fundamentales en la tecnología.</p>
+                        <p class="fs-6 mb-4">Los sensores analógicos utilizan formas de onda continuas para ofrecer mediciones continuas y muestran un abanico de estados en función de la magnitud física que detectan</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Analog.png" alt="..." /></figure>
+                        <p class="fs-6 mb-4">Los sensores digitales utizan señales no continuas y representan valores binarios que solo pueden interpretarse como ceros o unos. Porlo que los hace eficientes en la discretización al mostrar los cambios en el entorno digitalmente</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Digital.png" alt="..." /></figure>   
+                        <p class="fs-6 mb-4">Los sensores inteligentes poseen adaptación autónoma gracias a recursos informáticos integrados que realizan funcionas prestablecidas.</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Oximetro.png" alt="..." /></figure>
+                        <p class="fs-6 mb-4" style="text-align: center;">Ejemplo de señal de Oximetro de pulso</p>
+                        <p class="fs-6 mb-4">El Microcontrolador ATTINY85 es usado en proyectos wearable donde es posible utilizar los protocolos de comunicación más usados como SPI o I2C para PWM.</p>
+                        <p class="fs-6 mb-4">A continuación de muestra una tabla con 30 sensores para informarnos y adentrarnos un poco más a este mundo tan variado:</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Tabla 1.png" alt="..." /></figure>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Tabla 2.png" alt="..." /></figure>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Tabla 3.png" alt="..." /></figure>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Tabla 4.png" alt="..." /></figure>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Tabla 5.png" alt="..." /></figure>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Tabla 6.png" alt="..." /></figure>
+
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">- Protoboard</p>
+                        <p class="fs-6 mb-4">- Arduino UNO</p>
+                        <p class="fs-6 mb-4">- LEDs</p>
+                        <p class="fs-6 mb-4">- Resistencias de 220 Ohms</p>
+                        <p class="fs-6 mb-4">- Attiny85</p>
+                        <p class="fs-6 mb-4">- Botón</p>
+                        <p class="fs-6 mb-4">- Control remoto</p>
+                        <p class="fs-6 mb-4">- Potenciómetro</p>
+                        <p class="fs-6 mb-4">- Sensor ultrasónico</p>
+                        <p class="fs-6 mb-4">- Sensor MAX30102</p>
+                        <p class="fs-6 mb-4">- Sensor recepeto de infrarrojo KY-022</p>
+                        <p class="fs-6 mb-4">- Sensor foto resistor KY-018</p>
+                        <p class="fs-6 mb-4">- Sensor vibración KY-002</p>
+                        <p class="fs-6 mb-4">- Jumpers</p>
+                        <p class="fs-6 mb-4"></p>
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">Si ya has realizado las prácticas anteriores te recomendamos pasar al punto 2, en caso contrario realizar los siguientes pasos:</p>
+                        <p class="fs-6 mb-4">Para preparar el ensamblado de los circuitos con sensores primero se procedió a:
+                            <p class="fs-6 mb-4">1. Instalar la librería de Attiny85 en el software de Arduino.</p>
+                            <p class="fs-6 mb-4">2. Establecer el Arduino como ISP.</p>
+                            <p class="fs-6 mb-4">3. Configurar la tarjeta Attiny.</p>
+                            <p class="fs-6 mb-4">4. Quemar el bootloader.</p>
+                            <p class="fs-6 mb-4">5. Probar con un código si todos los pasos anteriores se realizaron correctamente.</p>
+                        </p>
+                        <p class="fs-6 mb-4">La presentación paso a paso para realizar los puntos anteriores se encontrará en esta práctica en la sección de descargables.</p>
+                        <p class="fs-6 mb-4">PASO 2</p>
+                        <p class="fs-6 mb-4">Los siguientes códigos se realizaron en las siguientes 3 etapas: </p>
+    
+                            <p id="construccion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño y Construcción</h1>
+                            <p class="fs-6 mb-4">Las siguientes imágenes muestran el ensamblado en tinkercad de los circuitos que utilizaremos en esta práctica</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Boton.jpeg" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 1. Botón</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/KY-002.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 2. Sensor de vibración</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/IR.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 3. Sensor Infrarrojo</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Potenciometro.jpeg" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 4. Potenciometro</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Fotoresistencia.jpeg" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 5. Fotoresistencia o LDR</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Ultrasonico.jpeg" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 6. Ultrasónico</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Chipoxi.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 7. MAX30102</p>
+
+
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Códigos</h1>
+                            <p class="fs-6 mb-4">Las siguientes imágenes muestran el código de cada uno de los circuitos que utilizaremos en esta práctica de Arduino Básico II.</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Cboton.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 1. Botón</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/CKY002.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 2. Sensor de vibración</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/CKY022.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 3. Sensor Infrarrojo</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Cpotenciometro.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 4. Potenciometro</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/CLDR.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 5. Fotoresistencia o LDR</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/CUltrasonico.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 6. Ultrasónico</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/CMAX30102.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 7. MAX30102</p>
+    
+
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">A continuación los resultados del armado y programado de cada uno de los sensores.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Boton.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 1. Botón</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/KY02.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 2. Sensor de vibración</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/IFsensor.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 3. Sensor Infrarrojo</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Potenciometro.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 4. Potenciometro</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Fotoresistor.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 5. Fotoresistencia o LDR</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Ultrasonico.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 6. Ultrasónico</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Oximetro.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 7. MAX30102</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Oximetroimage.jpg" alt="..." /></figure>
+                        <p class="fs-6 mb-4" style="text-align: center;">Ejemplo 7. Datos obtenido por el sensor MAX30102</p>
+
+
+    
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">La utilización del Attiny85 y arduino para el uso de sensores, la versatilidad, la facilidad de uso, el tamaño y consumo de energía, el soporte en línea y la comunidad electrónica han proporcionado los recursos (librerías), tutoriales y consejos para el ampliar la gama de aplicaciones.</p>
+                        <p class="fs-6 mb-4">Hasta aquí nuestras prácticas espero sean de ayuda y establezcan las bases para futuros proyectos. ¡Éxito!</p>
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Nota: Las referencias de cada uno de los sensores de la tabla se encontrará en el documento pdf en la sección de descargables</p>
+                        <p class="fs-6 mb-4">CFSensor. (2023, marzo 23). Sensor analógico frente a. sensores digitales, Whats the Difference? CFSensor. https://cfsensor.com/es/difference-between-analog-sensor-and-digital-sensor/</p>
+                        <p class="fs-6 mb-4">(S/f). Studocu.com. Recuperado el 28 de octubre de 2023, de https://www.studocu.com/es-mx/document/universidad-tecnologica-de-acapulco/desarrollo-personal/sensores-analogicos-digitales-y-actuadores/40189146</p>
+                        <p class="fs-6 mb-4">ATTINY85 20PU DIP8 Microcontrolador. (s/f). UNIT Electronics. Recuperado el 17 de septiembre de 2023, de https://uelectronics.com/producto/attiny85-20pu-dip8-microcontrolador/</p>
+                        
+                        <p id="descargables">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+                        <p class="fs-6 mb-4">Descargar documento PDF (Instrucciones configuración Attiny/Arduino): <a href="files/Configuración Attiny.pdf">documento.pdf</a> </p>
+                        <p class="fs-6 mb-4">Descargar códigos Attiny85: <a href="files/Practica_6_codigos.zip">carpeta comprimida</a> </p>
+                        <p class="fs-6 mb-4">Descargar códigos Attiny85: <a href="files/Tablas sensores.pdf">carpeta comprimida</a> </p>
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
