@@ -1,0 +1,9 @@
+﻿Name,Quantity,Component
+"PIEZO1",1," Piezo"
+"Rpot1",1,"250 kΩ Potentiometer"
+"M1",1," Vibration Motor"
+"S1, S2",2," Pushbutton"
+"DIST1",1," Ultrasonic Distance Sensor"
+"U1",1,"MCP23008-based, 32 LCD 16 x 2 (I2C)"
+"R1, R2",2,"220 Ω Resistor"
+"U2",1," Arduino Uno R3"
